@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #  Adivina el Número 
 
 Un pequeño juego en Python donde debes adivinar un número secreto entre **1 y 20**.  
@@ -44,3 +45,7 @@ python adivina_el_numero.py
 
 
 
+=======
+# mini-repositorio-python
+Repositorio de practica en Python con proyectos sencillos y útiles, nivel Junior
+>>>>>>> 40ba72eb6f219b29355c794d6475acff80322561
