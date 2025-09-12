@@ -1,51 +1,34 @@
-<<<<<<< HEAD
-#  Adivina el Número 
+# 🐍 Ejercicios de Python
 
-Un pequeño juego en Python donde debes adivinar un número secreto entre **1 y 20**.  
-¡Tienes **5 intentos** para lograrlo! 😎
+Este repositorio contiene mis primeros programas en Python, realizados como práctica.  
+Cada ejercicio tiene su propio archivo `.py` y puedes ejecutarlos desde la terminal.
 
 ---
 
-##  Requisitos
+## 📋 Lista de ejercicios
 
-Antes de ejecutar el programa, asegúrate de tener instalado:
+### 1. 🎲 Adivina el Número
+Juego donde el usuario debe adivinar un número secreto entre 1 y 10.
+- Archivo: [`adivina_numero.py`](adivina_numero.py)
+- Objetivo: Practicar bucles `while`, condiciones `if/else` y uso de `random`.
 
-- **Python 3.10+**
-- La librería [`colorama`](https://pypi.org/project/colorama/)
+### 2. 🎯 Dardo Mágico
+Versión mejorada del juego anterior. El número cambia cada vez que aciertas y ganas al llegar a 3 puntos.
+- Archivo: [`dardo_magico.py`](dardo_magico.py)
+- Objetivo: Practicar generación de números aleatorios, control de intentos y uso de librerías como `colorama`.
 
-Puedes instalar `colorama` con:
+### 3. ⌛ (Próximamente)
+Desarrollando mas ejercicios
+
+---
+
+## 📌 Requisitos
+
+- Python 3.8+
+- Librería `colorama` (opcional, para los colores)
+
+Instalación rápida:
 
 ```bash
 pip install colorama
-
 ```
-
-##  Ejecucion
-```bash
-python adivina_el_numero.py
-```
-
-##  Ejemplo de uso
-```
-🤔 Debes adivinar el número del 1 al 20 🤔  
-🤩 Tienes 5 intentos 🤩  
-
-🧐 Ingresa el número: 10  
-😒 Demasiado bajo, sigue intentando 😒, intentos: 1  
-
-🧐 Ingresa el número: 15  
-😒 Demasiado alto, sigue intentando 😒, intentos: 2  
-
-🧐 Ingresa el número: 12  
-🥳 Adivinaste 🥳
-```
-
-
-
-
-
-
-=======
-# mini-repositorio-python
-Repositorio de practica en Python con proyectos sencillos y útiles, nivel Junior
->>>>>>> 40ba72eb6f219b29355c794d6475acff80322561
