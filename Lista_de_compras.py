@@ -16,7 +16,7 @@ while True:
     productos = input(f"{Fore.BLUE}{Style.BRIGHT}Producto: ")
     compras.append(productos)
 
-    if productos == "fin".lower():
+    if productos == "fin".strip().lower():
         compras.pop()
         if not compras:
             print(f"{Fore.RED}{Style.BRIGHT}La lista esta vacia")
