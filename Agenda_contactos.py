@@ -47,11 +47,17 @@ while True:
             else:
                 print(f"{Fore.RED}{Style.BRIGHT}\nEl contacto no existe")
         elif opcion == 5:
-            print(f"{Fore.YELLOW}{Style.BRIGHT}\nHASTA LA PROXIMA")
-            break
+            salir = input(Fore.RED + Style.BRIGHT + "\nEstas seguro que deseas salir? S/N: ").upper()
+            if salir == "N":
+                continue
+            elif salir == "S":
+                 print(f"{Fore.YELLOW}{Style.BRIGHT}\nHASTA LA PROXIMA")
+                 break
+            else:
+                print(Fore.RED + Style.BRIGHT + "\nOpcion invalida")
         elif opcion < 1 or opcion > 5:
             print(f"{Fore.WHITE}{Style.BRIGHT}\nOPCION NO EXISTE")
 
     except ValueError :
-        print(Fore.RED + Style.BRIGHT +"Valor invalido")
+        print(Fore.RED + Style.BRIGHT +"\nValor invalido")
         
